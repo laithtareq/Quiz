@@ -12,7 +12,9 @@ the function should return 0 instead of attempting the division.
 def fractional_part(numerator, denominator):
 	# Operate with numerator and denominator to 
     # keep just the fractional part of the quotient
-	return 0
+	Full_num = numerator / denominator 
+	X = Full_num - int(Full_num)
+	return X
 
 print(fractional_part(5, 5)) # Should be 0
 print(fractional_part(5, 4)) # Should be 0.25

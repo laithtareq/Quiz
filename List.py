@@ -1,4 +1,4 @@
-X = [4,5,11,8,7]  
+X = [4,5,11,8,7,11]  
 
 #print(X[0])
 #
@@ -19,7 +19,7 @@ X = [4,5,11,8,7]
 #
 #del X[1]
 #print(X)
-#
+
 #X.remove(11)
 #print(X)
 
@@ -27,6 +27,21 @@ X = [4,5,11,8,7]
 #X.insert(2,40)
 #print(max(X))
 
-Name = 'python'  # ->> Name = ['p','y','t','h','o','n']
-print(Name[::2])
+#Name = 'python'  # ->> Name = ['p','y','t','h','o','n']
+#print(Name[::2])
+
+#print(X.count(11))
+#X.copy()
+#Y = X  # Wrong Way
+#Y = X.copy()  # Right Way
+#print(Y)
+#X[1] = 7
+#print(Y)
+
+#X.clear()
+#print(X)
+
+#X.extend([1,2])
+#print(len(X))
+#print(len('python'))
 
